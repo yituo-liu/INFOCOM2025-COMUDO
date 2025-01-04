@@ -11,7 +11,7 @@ This code requires the following libraries to run:
 
 # Notes on Implementation
 ### Convex Logistic Regression
-In the `main` function, different algorithms are called and images are outputted. All algorithm outputs can be completed in one run.
+In the `main` file, different algorithms are called and images are outputted. All algorithm outputs can be completed in one run.
 
 ### Non-Convex Neural Network
 For the non-convex neural network, please run different algorithm files separately. After all files have been run once and results have been saved, create a separate file to plot the images. 
