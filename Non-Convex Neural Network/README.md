@@ -1,3 +1,13 @@
+# Code Requirements
+This code requires the following libraries to run:  
+- `copy`  
+- `torch`  
+- `torchvision`  
+- `numpy`  
+- `os`  
+- `matplotlib`  
+- `random`
+  
 # Notes on Implementation
 ### Non-Convex Neural Network
 For the non-convex neural network, please run different algorithm files separately. After all files have been run once and results have been saved, create an additional file to plot the images. 
