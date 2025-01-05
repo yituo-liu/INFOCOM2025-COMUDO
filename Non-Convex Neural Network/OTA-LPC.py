@@ -242,7 +242,7 @@ for t in range(2000):
     for param_tensor in Z_gpu:
         Z_gpu[param_tensor] = torch.randn(size=Z_gpu[param_tensor].shape, device=device) * torch.sqrt(torch.tensor(noise, device=device))
 
-    # When the channel state h is too low, this mechanism is for waiting the next time slot to transmit
+    # When the channel strength is too small (causing too much transmit power), we skip the current transmission and wait for the next one
     Adjustment = Auto_tune(t + 1, T, transmit_power_history_dBm)
     if Adjustment == 1:
         transmit_power = 0
