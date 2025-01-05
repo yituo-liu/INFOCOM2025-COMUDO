@@ -306,7 +306,7 @@ plt.show(block=False)
 
 # Power Constraint Plot
 Power_Constraint = np.zeros((2001))
-for t in range(200):
+for t in range(2000):
     TX_Pt = 0
     for i in range(10):
         powercons = Power_Separate[t + 1][i] - 10 ** (-1.4) * 48910 / 1000
